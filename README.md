@@ -27,7 +27,7 @@ UA53 Series [ Electrochemical Film Gas Toxic Gas Sensor ]
 - UA53-NO2 : CH1 NO2 Concentration ppm , CH2 Temperature 'C/'F 
 - UA53-H2S : CH1 H2S Concentration ppm , CH2 Temperature 'C/'F
 
-UA54 Series [ Organic and Inorganic Gas Senasor ]
+UA54 Series [ Organic and Inorganic Gas Sensor ]
 - UA54-NH3  : CH1 NH3 Concentration ppm , CH2 Temperature 'C/'F
 - UA54-H2S  : CH1 H2S Concentration ppm , CH2 Temperature 'C/'F
 - UA54-EO   : CH1 EO Concentration ppm , CH2 Temperature 'C/'F
