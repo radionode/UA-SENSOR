@@ -26,18 +26,22 @@ UA53 Series [ Electrochemical Film Gas Toxic Gas Sensor ]
 - UA53-NO2 : CH1 NO2 Concentration ppm , CH2 Temperature 'C/'F 
 - UA53-H2S : CH1 H2S Concentration ppm , CH2 Temperature 'C/'F
 
-UA54 Series [ Organic and Inorganic Gas Sensor ]
+UA54 Series [ Electro-Cheminal Gas Sensor ]
 - UA54-NH3  : CH1 NH3 Concentration ppm , CH2 Temperature 'C/'F
 - UA54-H2S  : CH1 H2S Concentration ppm , CH2 Temperature 'C/'F
 - UA54-EO   : CH1 EO Concentration ppm , CH2 Temperature 'C/'F
 - UA54-HCL  : CH1 HCL Concentration ppm , CH2 Temperature 'C/'F
 - UA54-C2H4 : CH1 C2H4 Concentration ppm , CH2 Temperature 'C/'F
 
-UA58 Series [Combustible Gas Sensors ]
+UA58 Series [Muti Gas Sensors ]
 - UA58-KFG : CH1 CO ppm , CH2 O2 % , CH3 H2S ppm , CH4 CO2 ppm
 - UA58-LEL : CH1 Flammable Gas %LEL , CH2 Temperature 'C/'F , CH3 Flammable Gas Class
 - UA58-CH4 : CH1 CH4 Concentration ppm , CH2 Temperature 'C/'F
- 
+
+UA59 Series [Single Gas Sensors with protection housing ]
+- UA58-KFG : CH1 CO ppm , CH2 O2 % , CH3 H2S ppm , CH4 CO2 ppm
+- UA58-LEL : CH1 Flammable Gas %LEL , CH2 Temperature 'C/'F , CH
+  
 Software Tools
 - UA Calibrator   :  Setup program for All the UA series device.
 - UA Term Example : C based PC applcation that read sensor value via USB CDC.
