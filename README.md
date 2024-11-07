@@ -1,5 +1,4 @@
-# UA-SENSOR SDK
-This is SDK material for Radionode UA Sensors
+# UA-SENSOR Introduction 
 
 UA1X Series [ Temperature Sensor & Temp/TH Sensor ]
 - UA10 (MEMS )  : CH1 Temperature 'C/'F  , CH2 Humidity %
@@ -39,3 +38,7 @@ UA58 Series [Combustible Gas Sensors ]
 - UA58-LEL : CH1 Flammable Gas %LEL , CH2 Temperature 'C/'F , CH3 Flammable Gas Class
 - UA58-CH4 : CH1 CH4 Concentration ppm , CH2 Temperature 'C/'F
  
+Software Tools
+- UA Calibrator   :  Setup program for All the UA series device.
+- UA Term Example : C based PC applcation that read sensor value via USB CDC.
+- Python Example  : Python example code
