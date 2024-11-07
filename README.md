@@ -12,10 +12,7 @@ UA2XSeries [ Current, Voltage, and Pulse Input Sensor ]
 - UA20D (PULSE) : CH1 OPTICAL PULSE for Power meter
 - UA20E (RS485) : CH1~6 Digital Input 
 
-UA5X Series [ Volatile Organic Compounds and Carbon Dioxide Gas Sensor ]
-- UA50-TVOC : CH1 tVOC Concentration ppm/ppb , CH2 Absolute Humidity %
-- UA59-CO2  : CH1 CO2 Concentration %/ppm , CH2 Temperature 'C/'F
-  
+ 
 UA52 Series [ Optical Oxygen concentration & Carbon dioxide sensor ]
 - UA52-O2  : CH1 O2 Concentration mBar/%/ppm , CH2 Temperature 'C/'F or Barometer mBar/mmH2O
 - UA52-CO2 : CH1 CO2 Concentration %/ppm , CH2 Temperature 'C/'F
