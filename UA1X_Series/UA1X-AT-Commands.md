@@ -31,7 +31,7 @@
 <p>The calibration parameters are not listed here. If you need the professional calibration commands, please contact the Radionode Manufacturer DEKIST Co., Ltd.</p>
 
 <h3>Common Command Syntax</h3>
-<p></p> CR(\r), LF(\n)</p>
+<li style="font-size: smaller;"> CR(\r), LF(\n)</li>
 
 <h3>ATCZ</h3>
 <p>To request the value of sensor data (two channels).</p>
@@ -83,12 +83,14 @@
     <tr>
         <td>IN ATCD&lt;CR&gt;&lt;LF&gt;<br>OUT ATCD 20.11, 23.44&lt;CR&gt;&lt;LF&gt;</td>
         <td>To request the value of sensor data.<br>
-        <code>ATCD &lt;channel1&gt;,&lt;channel2&gt;</code><br>
-        <code>&lt;channel1&gt; = Temperature</code><br>
-        <code>&lt;channel2&gt; = RH or Temperature</code><br>
-        UA10: <code>&lt;ch1=Temperature&gt;&lt;ch2=Humidity&gt;</code><br>
-        UA11: <code>&lt;ch1=Temperature&gt;&lt;ch2=Temperature&gt;</code><br>
-        UA20: <code>&lt;ch1=user defined&gt;&lt;ch2=user defined&gt;</code>
+            ATCD &lt;channel1&gt;,&lt;channel2&gt;<br>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li style="font-size: smaller;">&lt;channel1&gt;</code> = Temperature</li>
+                <li style="font-size: smaller;">&lt;channel2&gt;</code> = RH or Temperature</li>
+                <li style="font-size: smaller;">UA10: &lt;ch1=Temperature&gt;&lt;ch2=Humidity&gt;</li>
+                <li style="font-size: smaller;">UA11: &lt;ch1=Temperature&gt;&lt;ch2=Temperature&gt;</li>
+                <li style="font-size: smaller;">UA20: &lt;ch1=user defined&gt;&lt;ch2=user defined&gt;</li>
+            </ul>
         </td>
     </tr>
 </table>
@@ -102,8 +104,9 @@
     </tr>
     <tr>
         <td>IN ATCSM 1&lt;CR&gt;&lt;LF&gt;<br>OUT ATCSM OK&lt;CR&gt;&lt;LF&gt;<br>OUT STREAM 12.33, 34.56&lt;CR&gt;&lt;LF&gt;</td>
-        <td>To enable stream mode (1:Enable, 0:Disable). The below string will be output automatically every 1 sec:<br>
-        <code>STREAM &lt;channel1&gt;,&lt;channel2&gt;</code>
+        <td>To enable stream mode (1:Enable, 0:Disable).<br>
+          The below string will be output automatically every 1 sec:<br>
+         <li style="font-size: smaller;">ATCSM &lt;channel1&gt;,&lt;channel2&gt;</li>
         </td>
     </tr>
 </table>
@@ -223,8 +226,8 @@
     <tr>
         <td>IN ATCCH1WIN 4&lt;CR&gt;&lt;LF&gt;<br>OUT ATCCH1WIN 4&lt;CR&gt;&lt;LF&gt;</td>
         <td>To Set or To Get filter parameters 1~ 15.<br>
-        1: the highest sensitivity (fast)<br>
-        15: insensitivity (slow)
+        <li style="font-size: smaller;">1: the highest sensitivity (fast)</li>
+        <li style="font-size: smaller;">15: insensitivity (slow)</li>
         </td>
     </tr>
 </table>
@@ -239,8 +242,8 @@
     <tr>
         <td>IN ATCCH2WIN&lt;CR&gt;&lt;LF&gt;<br>OUT ATCCH2WIN 14&lt;CR&gt;&lt;LF&gt;</td>
         <td>To Set or To Get filter parameters 1~ 15.<br>
-        1: the highest sensitivity (fast)<br>
-        15: insensitivity (slow)
+        <li style="font-size: smaller;">1: the highest sensitivity (fast)</li>
+        <li style="font-size: smaller;">15: insensitivity (slow)</li>
         </td>
     </tr>
 </table>
@@ -255,15 +258,17 @@
     <tr>
         <td>IN ATCCTS1 4&lt;CR&gt;&lt;LF&gt;<br>OUT ATCCTS1 4&lt;CR&gt;&lt;LF&gt;</td>
         <td>To Set or To Get sensor type -1 ~ 7:<br>
-        -1: Type None<br>
-        0: K Type<br>
-        1: J Type<br>
-        2: T Type<br>
-        3: N Type<br>
-        4: S Type<br>
-        5: E Type<br>
-        6: B Type<br>
-        7: R Type
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li style="font-size: smaller;">-1: Type None</li>
+                <li style="font-size: smaller;">0: K Type</li>
+                <li style="font-size: smaller;">1: J Type</li>
+                <li style="font-size: smaller;">2: T Type</li>
+                <li style="font-size: smaller;">3: N Type</li>
+                <li style="font-size: smaller;">4: S Type</li>
+                <li style="font-size: smaller;">5: E Type</li>
+                <li style="font-size: smaller;">6: B Type</li>
+                <li style="font-size: smaller;">7: R Type</li>
+            </ul>
         </td>
     </tr>
 </table>
@@ -278,15 +283,17 @@
     <tr>
         <td>IN ATCCTS2 7&lt;CR&gt;&lt;LF&gt;<br>OUT ATCCTS2 7&lt;CR&gt;&lt;LF&gt;</td>
         <td>To Set or To Get sensor type -1 ~ 7:<br>
-        -1: Type None<br>
-        0: K Type<br>
-        1: J Type<br>
-        2: T Type<br>
-        3: N Type<br>
-        4: S Type<br>
-        5: E Type<br>
-        6: B Type<br>
-        7: R Type
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li style="font-size: smaller;">-1: Type None</li>
+                <li style="font-size: smaller;">0: K Type</li>
+                <li style="font-size: smaller;">1: J Type</li>
+                <li style="font-size: smaller;">2: T Type</li>
+                <li style="font-size: smaller;">3: N Type</li>
+                <li style="font-size: smaller;">4: S Type</li>
+                <li style="font-size: smaller;">5: E Type</li>
+                <li style="font-size: smaller;">6: B Type</li>
+                <li style="font-size: smaller;">7: R Type</li>
+            </ul>
         </td>
     </tr>
 </table>
