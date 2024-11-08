@@ -83,7 +83,6 @@
             - &lt;ch4&gt; = user defined<br>
             - &lt;ch5&gt; = user defined<br>
             - &lt;ch6&gt; = user defined<br>
-         
         </td>
     </tr>
 </table>
