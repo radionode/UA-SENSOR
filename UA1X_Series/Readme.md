@@ -159,6 +159,7 @@
         <td>To set the offset value of channel 2 output.</td>
     </tr>
 </table>
+<img src= https://github.com/user-attachments/assets/19be74aa-b7b7-4f81-8396-aed602f40030>
 
 <h3>ATTQOFF1</h3>
 <p>To set Temperature Offset in AREA1. <strong>Only For UA10H Ver1.0 or later.</strong></p>
