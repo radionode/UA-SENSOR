@@ -4,7 +4,7 @@
 
 <body>
 
-<h1>AT Commands Description for UA54 Series Sensors</h1>
+<h1>AT Commands Description for UA58 Series Sensors</h1>
 <p>Last Update: 05 NOV 2024, <a href="mailto:master@dekist.com">master@dekist.com</a></p>
 
 <hr>
