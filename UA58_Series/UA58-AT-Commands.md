@@ -394,7 +394,7 @@
     </tr>
 </table>
 
-<h2>UA58-CH4 (Methane Sensor) AT Commands</h2>
+<h2>2-3.UA58-CH4 (Methane Sensor) AT Commands</h2>
 
 <h3>ATCZ</h3>
 <p>It checks USB connection and device status.</p>
