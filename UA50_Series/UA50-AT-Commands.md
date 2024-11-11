@@ -1,10 +1,8 @@
-
-
-<img src="https://github.com/user-attachments/assets/771264bf-60dc-46db-bd62-2f0d790b0e11" width="40%" height="30%">
+<img src="https://github.com/user-attachments/assets/771264bf-60dc-46db-bd62-2f0d790b0e11" width="20%" height="10%">
 
 <body>
 
-<h1>AT Commands Description for UA54 Series Sensors</h1>
+<h1>AT Commands Description for UA50 Series Sensors</h1>
 <p>Last Update: 05 NOV 2024, <a href="mailto:master@dekist.com">master@dekist.com</a></p>
 
 <hr>

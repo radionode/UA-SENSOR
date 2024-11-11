@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/771264bf-60dc-46db-bd62-2f0d790b0e11" width="40%" height="30%">
+<img src="https://github.com/user-attachments/assets/771264bf-60dc-46db-bd62-2f0d790b0e11" width="20%" height="10%">
 
 <html lang="en">
 <head>
@@ -24,7 +24,7 @@
           UA53-NO2: Nitrogen Dioxide Sensor</br>
           UA53-H2S: Hydrogen Sulfide Sensor</br>
         </td>
-        <td>Temperature</td>
+        <td>Gas</td>
     </tr>
 </table>
 
