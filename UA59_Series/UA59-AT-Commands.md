@@ -96,8 +96,8 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td>IN ATCVER&lt;CR&gt;&lt;LF&gt;<br>OUT ATCVER UA54-CO2_1V4&lt;CR&gt;&lt;LF&gt;</td>
-        <td>Requests the version of this device (e.g., UA54-CO2_1V8).</td>
+        <td>IN ATCVER&lt;CR&gt;&lt;LF&gt;<br>OUT ATCVER ua59-CO2_1V8&lt;CR&gt;&lt;LF&gt;</td>
+        <td>Requests the version of this device (e.g., ua59-CO2_1V8).</td>
     </tr>
 </table>
 

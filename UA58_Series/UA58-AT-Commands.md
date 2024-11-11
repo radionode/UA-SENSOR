@@ -4,7 +4,7 @@
 
 <body>
 
-<h1>AT Commands Description for UA54 Series Sensors</h1>
+<h1>AT Commands Description for UA58 Series Sensors</h1>
 <p>Last Update: 05 NOV 2024, <a href="mailto:master@dekist.com">master@dekist.com</a></p>
 
 <hr>
@@ -394,7 +394,7 @@
     </tr>
 </table>
 
-<h2>UA58-CH4 (Methane Sensor) AT Commands</h2>
+<h2>2-3.UA58-CH4 (Methane Sensor) AT Commands</h2>
 
 <h3>ATCZ</h3>
 <p>It checks USB connection and device status.</p>
