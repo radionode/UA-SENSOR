@@ -122,6 +122,30 @@
     </tr>
 </table>
 
+
+<h3>ATCFTRST</h3>
+<p>To set the initial pulse count, allowing the user to specify the starting value for the pulse count.</p>
+<table>
+    <tr>
+        <th>Example</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>
+            IN ATCFTRST 999&lt;CR&gt;&lt;LF&gt;<br>
+            OUT ATCD 999&lt;CR&gt;&lt;LF&gt;<br>
+            OUT ATCD 1000&lt;CR&gt;&lt;LF&gt;:
+        </td>
+        <td>
+            Sets the starting value for the pulse count.<br>
+	    ATCFRST 999 (user-defined).<br>
+            ATCD &lt;channel1&gt;<br>
+            - &lt;ch1&gt; = Pulse Count starting from the set value.<br>
+        </td>
+    </tr>
+</table>
+
+
 <h3>ATCSM</h3>
 <p>To enable stream mode; the UA1X sends sensor values every second without needing any user command. All channels will output data. This mode is currently supported only for the UA20D.</p>
 <table>
@@ -167,7 +191,7 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td>IN ATCVER&lt;CR&gt;&lt;LF&gt;<br>OUT ATCVER UA20-A_1V3&lt;CR&gt;&lt;LF&gt;</td>
+        <td>IN ATCVER&lt;CR&gt;&lt;LF&gt;<br>OUT ATCVER UA20-D_1V3&lt;CR&gt;&lt;LF&gt;</td>
         <td>To request the version of this device.</td>
     </tr>
 </table>
@@ -185,7 +209,7 @@
     </tr>
 </table>
 
-<h2>3.UA20-E AT Commands</h2>
+<h2>4.UA20-E AT Commands</h2>
 <p>The calibration parameters are not listed here. If you need the professional calibration commands, please contact the Radionode Manufacturer DEKIST Co., Ltd.</p>
 <li style="font-size: smaller;"> CR(\r), LF(\n)</li>
 
@@ -390,7 +414,7 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td>IN ATCVER&lt;CR&gt;&lt;LF&gt;<br>OUT ATCVER UA20-A_1V3&lt;CR&gt;&lt;LF&gt;</td>
+        <td>IN ATCVER&lt;CR&gt;&lt;LF&gt;<br>OUT ATCVER UA20-E_1V0&lt;CR&gt;&lt;LF&gt;</td>
         <td>To request the version of this device.</td>
     </tr>
 </table>
@@ -403,7 +427,7 @@
         <th>Description</th>
     </tr>
     <tr>
-        <td>IN ATCMODEL&lt;CR&gt;&lt;LF&gt;<br>OUT ATCMODEL 241105&lt;CR&gt;&lt;LF&gt;</td>
+        <td>IN ATCMODEL&lt;CR&gt;&lt;LF&gt;<br>OUT ATCMODEL 241115&lt;CR&gt;&lt;LF&gt;</td>
         <td>To request the serial number of this model.</td>
     </tr>
 </table>
