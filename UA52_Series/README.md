@@ -10,7 +10,7 @@
     </tr>
     <tr>
         <td>
-		Optical Type
+		Optical Type<br>
 		•UA52-O2     :  O2 Sensor<br>
 		•UA52-CO2   :  CO2 Sensor<br>
         </td>
