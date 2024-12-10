@@ -9,7 +9,7 @@
     </tr>
     <tr>
         <td>
-          ElectroChemical Cell
+          ElectroChemical Cell</br>
           • UA53-CO: Carbon Monoxide Sensor</br>
           • UA53-SO2: Sulfur Dioxide Sensor</br>
           • UA53-NO2: Nitrogen Dioxide Sensor</br>
